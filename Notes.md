@@ -63,3 +63,10 @@ showProducts()
 `
 
 Para obtener solo un producto, se puede hacer un get products/[title]
+
+
+
+
+--------------------------
+Enlace sobre como utilizar routing
+https://www.freecodecamp.org/news/how-to-use-react-router-version-6/#:~:text=To%20install%20React%20Router%2C%20all,%2Drouter%2Ddom%406%20.

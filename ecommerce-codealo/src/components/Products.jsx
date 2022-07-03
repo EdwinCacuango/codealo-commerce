@@ -1,8 +1,9 @@
-import React from 'react'
+import { useAPIProducts } from "./Services/ProductsContext"
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <div> Productos
+    </div>
   )
 }
 

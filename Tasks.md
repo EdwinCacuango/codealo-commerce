@@ -2,7 +2,7 @@
     1. Definir los archivos de cada página y enrutarlos
 2. Definir context:
     1. Para el carrito
-    2. Para el listado de productos 
+    2. Para el listado de productos (Puede no ser necesario ya que se necestia en contadas ocasiones: solo )
     3. Para el usuario logeado** Buscar como hacer
         1. Dentro del usuario, almacenar el historial de sus compras
             El historial contiene fecha de compra, item, precio de intem, cantidad de item, si el pedido fue pagado y entregado
