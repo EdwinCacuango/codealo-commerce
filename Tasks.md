@@ -1,4 +1,5 @@
-1. Instalar Tw y React router
+1. Instalar Tw y React router (check)
+    1. Definir los archivos de cada página y enrutarlos
 2. Definir context:
     1. Para el carrito
     2. Para el listado de productos 
