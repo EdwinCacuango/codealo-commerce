@@ -18,18 +18,18 @@ const ProductsProvider = ({ children }) => {
     }, []);
 
     return (
-        <ProductsContext.Provider value={{products}}>
+        <ProductsContext.Provider value={{ products }}>
             {children}
         </ProductsContext.Provider>
     );
 };
 
-const useAPIProducts=()=>{
-    const context= useContext(ProductsContext);
-    if (context===undefined){
-        throw new Error ("Context must be used within a Provider")
+const useAPIProducts = () => {
+    const context = useContext(ProductsContext);
+    if (context === undefined) {
+        throw new Error("Context must be used within a Provider")
     }
     return context
 }
 
-export {useAPIProducts, ProductsProvider}
+export { useAPIProducts, ProductsProvider }

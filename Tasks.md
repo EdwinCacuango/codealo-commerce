@@ -7,10 +7,10 @@
         1. Dentro del usuario, almacenar el historial de sus compras
             El historial contiene fecha de compra, item, precio de intem, cantidad de item, si el pedido fue pagado y entregado
             Por defecto, todos los pedidos son entregados. La entrega no tiene fecha
-3. Crear página de inicio
-4. Crear una página de listado total
+3. Crear página de inicio (listo)
+4. Crear una página de listado total (listo)
     1. Listar mediante map todos los productos
-    2. Crear el fitro
+    2. Crear el fitro (listo)
         Al inicio, el filtro muestra todos
         Incluir una opción en la lista desplegable que permita aquello
 5. Crear una página específica para cada producto

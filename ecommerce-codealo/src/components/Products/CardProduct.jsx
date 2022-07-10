@@ -1,15 +1,14 @@
 import React from 'react'
 import Card from '../UI/Card'
-const CardProduct = ({ url,imageName, title, description, price }) => {
+const CardProduct = ({ urlImage,imageName, title, description, price, className}) => {
     return (
-        <Card>
+        <Card className={className}>
             <div>
-                <img src={url} alt={imageName} />
+                <img src={urlImage} alt={imageName} />
             </div>
             <div>
-                <h2>{title}</h2>
-                <p>{description}</p>
-                <p>{price}</p>
+                <h2 className='text-2xl font-bold'>{title}</h2>
+                <p>Precio: {price}</p>
             </div>
         </Card>
     )

@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
+import Layout from "./components/layout";
+import Home from "./components/Home/Home";
 import Products from "./components/Products/Products";
 import DetailProduct from "./components/DetailProduct";
 import LogIn from "./components/LogIn";
@@ -13,7 +14,7 @@ import { CartContextProvider } from "./components/Services/CartContext";
 
 function App() {
   return (
-    <div className="App">
+    <Layout className="App">
       <ProductsProvider>
         <CartContextProvider>
           <Routes>
@@ -27,7 +28,7 @@ function App() {
           </Routes>
         </CartContextProvider>
       </ProductsProvider>
-    </div>
+    </Layout>
   );
 }
 
