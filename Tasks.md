@@ -13,7 +13,7 @@
     2. Crear el fitro (listo)
         Al inicio, el filtro muestra todos
         Incluir una opción en la lista desplegable que permita aquello
-5. Crear una página específica para cada producto
+5. Crear una página específica para cada producto 
     1. Configurar routing con use params
     2. Dentro de cada página, seguir el esquema de la tienda ya creada
     pero sin galería para imágenes
