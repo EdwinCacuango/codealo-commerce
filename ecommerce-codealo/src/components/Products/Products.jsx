@@ -58,10 +58,12 @@ const Products = () => {
           return (
             <CardProduct
               key={item.id}
+              id={item.id}
               urlImage={`${urlAPI}${item.image.url}`}
               imageName={item.image.name}
               title={item.title}
               price={`$ ${item.price}`}
+              slug={item.slug}
             />
           );
         })}

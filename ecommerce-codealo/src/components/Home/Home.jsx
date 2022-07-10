@@ -18,7 +18,8 @@ const Home = () => {
               urlImage={`${urlAPI}${product.image.url}`}
               imageName={product.image.name}
               title={product.title}
-              price={`$ ${product.price}`} />
+              price={`$ ${product.price}`} 
+              slug={product.slug}/>
           })
         }
       </div>

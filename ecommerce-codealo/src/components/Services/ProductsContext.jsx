@@ -31,5 +31,4 @@ const useAPIProducts = () => {
     }
     return context
 }
-
 export { useAPIProducts, ProductsProvider }
